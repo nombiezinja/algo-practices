@@ -18,4 +18,10 @@ export default class Graph {
     }
     return allVertices
   }
+
+  toString() {
+    for (k in this.AdjList) {
+      console.log(`${this.AdjList[k]}`)
+    }
+  }
 }
