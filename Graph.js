@@ -24,4 +24,6 @@ export default class Graph {
       console.log(`${this.AdjList[k]}`)
     }
   }
+
+  
 }
