@@ -16,7 +16,7 @@
     "url": "https://github.com/nombiezinja/algo-practices/issues"
   },
   "jest": {
-    "testEnvironment": "node", 
+    "testEnvironment": "node",
     "modulePathIgnorePatterns": [
       "node_modules"
     ]
