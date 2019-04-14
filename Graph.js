@@ -20,9 +20,11 @@ export default class Graph {
   }
 
   toString() {
-    for (k in this.AdjList) {
-      console.log(`${this.AdjList[k]}`)
+    let str = ''
+    for (let item in this.AdjList) {
+      str = str + item.toString();
     }
+    return str
   }
 
   
